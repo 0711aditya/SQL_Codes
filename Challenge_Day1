@@ -1,0 +1,33 @@
+#Challenge DAY1
+-------------------------
+#Create a list of distinct district customers are from:
+
+SELECT DISTINCT 
+district
+FROM address
+
+-------------------------------------------------------------------
+
+#What is latest rental date:
+
+SELECT DISTINCT 
+rental_date 
+FROM rental
+ORDER BY rental_date DESC 
+LIMIT 1
+
+-------------------------------------------------------------------
+
+#How many films does the company have?
+
+SELECT 
+COUNT(film_id)
+FROM FILM
+
+------------------------------------------------------
+
+#How many distinct lastnames of customers are there?
+
+SELECT 
+COUNT(DISTINCT last_name)
+FROM customer

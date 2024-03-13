@@ -1,0 +1,24 @@
+SELECT DISTINCT
+coloumn_name1 
+FROM table_name 
+ORDER BY Cloumn_name2
+
+----------------------------------
+
+SELECT DISTINCT
+coloumn_name1 
+coloumn_name2
+FROM table_name 
+ORDER BY Cloumn_name1
+
+----------------------------------
+
+# Marketing team member asks about the different prices that have been paid, it has to be in order from high to low so that it would be easier for them to understand.
+
+SELECT * FROM payment
+
+SELECT DISTINCT
+amount 
+FROM payment
+ORDER BY amount DESC 
+

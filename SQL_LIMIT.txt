@@ -1,0 +1,20 @@
+#syntax
+
+SELECT 
+coloumn_name1,
+coloumn_name2
+FROM table_name
+LIMIT n
+
+----------------------------
+
+#Write a single SQL query to retrieve the first 5 unique genres in ascending alphabetical order.Column: genre in the books table.
+
+SELECT DISTINCT 
+genre
+FROM books
+ORDER BY genre ASC 
+LIMIT 5
+
+-----------------------------
+
