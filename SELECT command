@@ -17,3 +17,11 @@ title,
 publication_year
 from books
 -----------------------------------
+#challenge to get the firstname, lastname and emails from the customer table
+
+select 
+first_name,
+last_name,
+email
+from customer
+------------------------------------
