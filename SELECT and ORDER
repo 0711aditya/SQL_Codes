@@ -1,0 +1,27 @@
+#orderby syntax 
+
+select 
+coloumn_name1,
+coloumn_name2
+from table 
+order by column_name1 DESC 
+
+----------------------------------
+#Given the books table, write a SQL query to: 1.Select all columns from the books table. 2.Order the results by the price in descending order.
+select
+*
+from books
+order by price desc
+
+------------------------------------
+
+#And they want to start working from Z towards a indebt list.,And also in case there is the same last name multiple times in the list, you should as a second criterion,also order by the first name and the first name in this case, as a second criterion should also be
+from Z to A.
+
+select 
+*
+from customer
+order by last_name desc, first_name desc
+
+-----------------------------
+
