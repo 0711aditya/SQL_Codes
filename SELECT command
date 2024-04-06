@@ -1,4 +1,5 @@
-# Select command 
+# Select syntax
+
 select * from Actor
 
 ----------------------------------
