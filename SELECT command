@@ -1,0 +1,16 @@
+# Select command 
+select * from Actor
+
+----------------------------------
+
+Select 
+*
+from address 
+
+---------------------------------
+
+select
+address,
+district,
+from address
+----------------------------------
