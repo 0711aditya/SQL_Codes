@@ -3,15 +3,17 @@
 select * from Actor
 
 ----------------------------------
-
 Select 
 *
 from address 
-
 ---------------------------------
-
 select
 address,
 district,
 from address
 ----------------------------------
+select 
+title,
+publication_year
+from books
+-----------------------------------
